@@ -305,7 +305,7 @@ FINAL ANSWER:
 if __name__ == "__main__":
     PDF_FILE_PATH = "Ambedkar_book.pdf"
     VECTORDB_DIRECTORY = "./semrag_db"
-    semrag = SemRAG()
+    semrag = SemRAG(llm_model="mistral")
     semrag.build_complete_semrag(PDF_FILE_PATH, VECTORDB_DIRECTORY)
     # q = "What were Dr. Ambedkar's ideal society based upon?"
     # print(semrag.query(q))
