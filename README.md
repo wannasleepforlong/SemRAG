@@ -3,8 +3,8 @@
 SemRAG is a **Semantic Knowledge-Augmented RAG system** designed to improve question-answering by integrating semantic chunking, hybrid retrieval, lightweight knowledge-graph construction, and graph-aware reasoning. The goal is to address limitations of traditional RAG systems such as poor chunk boundaries, weak retrieval signals, and missing conceptual relationships.
 
 SemRAG provides a practical alternative to GraphRAG by focusing on semantic coherence and efficient retrieval, while avoiding the computational overhead of LLM-based graph extraction and summarization.
-
 [Arxiv](https://arxiv.org/abs/2507.21110) [Researchgate](https://www.researchgate.net/publication/394100139_SemRAG_Semantic_Knowledge-Augmented_RAG_for_Improved_Question-Answering)
+
 ---
 
 ## Features
